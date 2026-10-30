@@ -6,5 +6,5 @@ def es_primo(n: int):
             return False
     return True
 
-print("¿El 7 es primo?", es_primo(7))
-print("¿El 10 es primo?", es_primo(10))
+numero = int(input("Dime un número: "))
+print(f"¿El {numero} es primo?", es_primo(numero))
